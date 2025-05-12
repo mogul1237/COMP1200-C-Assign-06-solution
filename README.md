@@ -1,2 +1,21 @@
 # COMP1200-C-Assign-06-solution
-COMP1200-C – Assign 06 solution
+
+Download Here: [COMP1200-C – Assign 06 solution](https://jarviscodinghub.com/assignment/comp1200-c-assign-06-solution/)
+
+For Custom/Original Work email jarviscodinghub@gmail.com/whatsapp +1(541)423-7793
+
+Submit assign06.c via Canvas
+Before you start writing your program: Save a copy of the balloonValues.txt data file from the Assign05 Announcement and in your COMP1200/assign06 folder. If you do not have folders set up for your assignment files, this is a good time to start. Your assign06.c will look in the folder where it is saved for the data file. A development plan is a process that guides you through solving a problem and creating an algorithm. Create your own algorithm and use it as comments throughout your program. Use section comments to group your statements as well as comments from your algorithm.
+Problem: Program: assign06.c On a hot Saturday afternoon, you and your friends notice an empty baby swimming pool on the lawn of your apartment complex. So, why not see if you can fill it with water from water balloons thrown from your second floor balcony.
+You will modify your assign05.c using user-created functions. Include the following function prototypes in your assign06.c. You may modify the variable names but not the function names, return types, or parameter order, quantity, and data type. HINT: To reduce errors add the functions one at a time, i.e. after your getBalloonVolume returns the correct volume, add compDistance. Remove all unnecessary statements from the main function. // FUNCTION PROTOTYPES====================================================== double getBalloonVolume( int diameter ); double compDistance( double degrees, double velocity, double thrower_ht ); void printResults(int numHits,int numBalloons,int holdBalloonCount,double totalWater); Problem Constants: See previous assignment. Problem Inputs: See previous assignment. Problem Outputs: See previous assignment. Other variables: See previous assignment.
+Instructions:  See Standards for Documentation of C Programs on the Resources page on Canvas.  Insert comments at the top and throughout each file. o Include the follow comments at the beginning of this (and ALL) files. // submitter’s name, GROUP # Grade of ZERO for files with submitter name not part of Canvas group // other group members’ names Type “none” if submitting alone. // assignment number Zero points for comments if no collaboration statement // date you completed the assignment // statement(s) about collaboration // a short narrative about what the file does o Use the algorithm given as comments throughout your program.  Use descriptive variable names.  Use Sample Input/Output as a guide.  Use Generate CSD to ensure correct indenting.  Represent ALL given values as constants.  See previous assignment.
+Sample Input/Output: Same as previous assignment.
+Submit via Canvas: assign06.c C program file
+New commands: user created functions functions protypes functions definitions call-by-value functions
+NOTE: Your submitted file(s) MUST be spelled and cased as instructed. [-5 points per file for not doing so.]
+-5 points for absence of any of these required comments at the top at the top of each file.
+If you do not submit individually, there will be a 5 POINTS PENALTY for not joining a group. Groups can be 2-4 students. DO NOT join a group unless you have worked with the other members. If you do, you will be removed from the group and given the grade of zero.
+Read all instructions before beginning your work.
+NOTE: Your submitted file(s) MUST be spelled and cased as instructed. [-5 points for not doing so.]
+COMP1200c – Spring 2015– assign06 – p. 1 of 2
+Rough algorithm – get the balloon input values from the data file on at a time while more data, get balloon input values from the data file one balloon at a time count balloon use balloon diameter to determine volume <<< move statements that do this to a function and replace with a statement that uses the function add balloon volume to total water compute distance <<< move statements that do this to a function and replace with a statement that uses the function is it a hit? add balloon volume to pool water count hit remember balloon number that finished filling the pool OUTPUT <<< move statements that do this to a function and replace with a statement that uses the function
